@@ -10,5 +10,6 @@ node server.js
 // browse http://localhost:5000/#/posts
 ```
 
-##  Live Url
+##  Live Url ( Hosted on github )
 
+https://hesing.github.io/ngappdemo/public/#/posts
