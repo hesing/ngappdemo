@@ -1,5 +1,5 @@
 angular.module("myApp")
-	.constant("BASE_URL", "http://jsonplaceholder.typicode.com/posts/")
+	.constant("BASE_URL", "https://hkapi.azurewebsites.net/posts/")
 	.service("PostService", function(BASE_URL, $http){
 		
 		this.getPosts = function(){

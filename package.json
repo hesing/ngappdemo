@@ -1,0 +1,25 @@
+{
+  "name": "ngappdemo",
+  "version": "1.0.0",
+  "description": "``` npm i node server.js ```",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesing/ngappdemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hesing/ngappdemo/issues"
+  },
+  "homepage": "https://github.com/hesing/ngappdemo#readme"
+}
