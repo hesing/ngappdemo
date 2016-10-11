@@ -1,0 +1,14 @@
+<h1>Add Post</h1>
+{{ editpostvm.formData  }}
+<form ng-submit="editpostvm.updatePost()" novalidate>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" name="title" ng-model="editpostvm.formData.title">
+  </div>
+  <div class="form-group">
+    <label for="body">Description</label>
+    <input type="text" class="form-control" id="body" name="body" ng-model="editpostvm.formData.body">
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
